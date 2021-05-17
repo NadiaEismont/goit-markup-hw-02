@@ -7,10 +7,6 @@
 ul {
   list-style: none;
 }
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: #e5e5e5;
-}
 
 .header {
   background: #ffffff;
@@ -24,7 +20,7 @@ body {
   background: #e5e5e5;
   margin: 0 auto;
 }
-.central-container {
+/* .central-container {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
@@ -33,6 +29,10 @@ body {
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 /* Main container section */
-.central-section {
+/* .central-section {
   padding: 100px 90px;
-}
+} */
+/* body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
+} */
