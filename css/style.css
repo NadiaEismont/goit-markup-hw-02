@@ -7,7 +7,9 @@
 ul {
   list-style: none;
 }
-
+a {
+  color: #212121;
+}
 .header {
   background: #ffffff;
   position: absolute;
@@ -15,6 +17,23 @@ ul {
   height: 80px;
   left: 0px;
   top: 0px;
+  color: black;
+}
+.studia:hover,
+.studia:focus {
+  color: blue;
+}
+.portfolio:hover,
+.portfolio:focus {
+  color: blue;
+}
+.contacts_list:hover,
+.contacts_list:focus {
+  color: blue;
+}
+.email:hover,
+.email:focus {
+  color: blue;
 }
 .container {
   background: #e5e5e5;
