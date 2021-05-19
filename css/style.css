@@ -34,27 +34,13 @@ body {
   color: var(--logo-accent);
 }
 /* hover section */
-.studia:hover,
-.studia:focus {
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
-.portfolio:hover,
-.portfolio:focus {
-  color: var(--accent-color);
+.site-nav .link:current {
+  color: var(--primary-text-color);
 }
-.contacts_list:hover,
-.contacts_list:focus {
-  color: var(--accent-color);
-}
-.email:hover,
-.email:focus {
-  color: var(--accent-color);
-}
-.logo:hover,
-.logo:focus {
-  color: var(--accent-color);
-}
-
 .header {
   background: #ffffff;
   position: absolute;
@@ -96,13 +82,8 @@ body {
   font-size: 16px;
   padding: 10px 32px;
   display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  position: absolute;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
+
 /* .central-container {
   display: flex;
   flex-direction: row-reverse;
