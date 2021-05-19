@@ -38,7 +38,7 @@ body {
 .link:focus {
   color: var(--accent-color);
 }
-.site-nav .link.current {
+.nav-list .link.current {
   color: var(--primary-text-color);
 }
 .header {
