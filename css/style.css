@@ -1,7 +1,7 @@
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --accent-color: blue;
+  --accent-color: #2196F3;
   --titles-text: black;
 }
 * {
@@ -55,7 +55,7 @@ body {
   color: var(--accent-color)
 }
 
-}
+
 .nav-list .link.current {
   color: var(--primary-text-color);
 }
@@ -112,7 +112,9 @@ header {
   color: white;
   background-color: #188ce8;
   font-size: 16px;
-  font-weight:500 px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
   padding: 10px 32px;
   display: flex;
   font-family: inherit;
@@ -126,7 +128,7 @@ header {
   font-size: 16px;
   line-height: 1.19;
   color: #212121;
-  font-weight:500 px;
+  font-weight:500;
 }
 .container-team-prof {
   font-size: 16px;
@@ -162,15 +164,14 @@ header {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #ffffff;
-}
-.link-footer{
- color:  rgba(255, 255, 255, 0.6);
-}
+  color: #ffffff99;
+ }
+
+
 /* Portfolio part */
 .all:hover,
 .all:focus {
-  color: var(--logo-accent);
+  color:#2196f3;
 }
 h2 {
   font-weight: bold;
@@ -187,3 +188,17 @@ p {
   letter-spacing: 0.03em;
   color: #757575;
 }
+.button-port{
+  color: white;
+  background-color: #2196F3;
+  font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+  padding: 10px 32px;
+  display: flex;
+  font-family: inherit;
+  cursor: pointer;
+}
+
