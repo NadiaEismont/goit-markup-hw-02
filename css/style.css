@@ -78,14 +78,14 @@ header {
 .hero {
   background: #2f303a;
 }
-.section{
-text-transform: uppercase;
-}
+
 .section-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   color: var(--title-text-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .section-info {
   font-style: normal;
@@ -106,6 +106,7 @@ text-transform: uppercase;
   color: white;
   background-color: #188ce8;
   font-size: 16px;
+  font-weight:500 px;
   padding: 10px 32px;
   display: flex;
   font-family: inherit;
@@ -119,6 +120,7 @@ text-transform: uppercase;
   font-size: 16px;
   line-height: 1.19;
   color: #212121;
+  font-weight:500 px;
 }
 .container-team-prof {
   font-size: 16px;
