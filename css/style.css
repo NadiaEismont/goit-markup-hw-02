@@ -15,7 +15,10 @@ ul {
 }
 a {
   color: var(--title-text-color);
- }
+}
+a {
+  text-decoration: none;
+}
 body {
   background-color: #e5e5e5;
   font-family: Roboto, sans-serif;
