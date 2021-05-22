@@ -21,7 +21,7 @@ a {
 }
 body {
   background-color: #e5e5e5;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
 }
 
@@ -127,7 +127,7 @@ header {
 .container-team-member {
   font-size: 16px;
   line-height: 1.19;
-  color: #212121;
+  color: var(--title-text-color)
   font-weight:500;
 }
 .container-team-prof {
@@ -174,7 +174,7 @@ header {
   color:#2196f3;
 }
 h2 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -192,10 +192,10 @@ p {
   color: white;
   background-color: #2196F3;
   font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
   padding: 10px 32px;
   display: flex;
   font-family: inherit;
